@@ -31,6 +31,10 @@
     {"type": "single", "resource": "tfmg:fluid/molten_slag_still"},
     {"type": "single", "resource": "tfmg:fluid/molten_steel_flow"},
     {"type": "single", "resource": "tfmg:fluid/molten_steel_still"},
+	{"type": "single", "resource": "tfmg:fluid/molten_aluminum_flow"},
+    {"type": "single", "resource": "tfmg:fluid/molten_aluminum_still"},
+	{"type": "single", "resource": "tfmg:fluid/red_mud_flow"},
+    {"type": "single", "resource": "tfmg:fluid/red_mud_still"},
     {"type": "single", "resource": "tfmg:fluid/napalm_flow"},
     {"type": "single", "resource": "tfmg:fluid/napalm_still"},
     {"type": "single", "resource": "tfmg:fluid/liquid_silicon_flow"},
@@ -39,9 +43,14 @@
     {"type": "single", "resource": "tfmg:fluid/naphtha_still"},
     {"type": "single", "resource": "tfmg:fluid/sulfuric_acid_flow"},
     {"type": "single", "resource": "tfmg:fluid/sulfuric_acid_still"},
+    {"type": "single", "resource": "tfmg:fluid/brine_flow"},
+    {"type": "single", "resource": "tfmg:fluid/brine_still"},
+    {"type": "single", "resource": "tfmg:fluid/sodium_hydroxide_flow"},
+    {"type": "single", "resource": "tfmg:fluid/sodium_hydroxide_still"},
     {"type": "single", "resource": "tfmg:fluid/propane"},
     {"type": "single", "resource": "tfmg:fluid/lpg"},
     {"type": "single", "resource": "tfmg:fluid/neon"},
+    {"type": "single", "resource": "tfmg:fluid/chlorine"},
     {"type": "single", "resource": "tfmg:fluid/gas_texture"}
   ]
 }

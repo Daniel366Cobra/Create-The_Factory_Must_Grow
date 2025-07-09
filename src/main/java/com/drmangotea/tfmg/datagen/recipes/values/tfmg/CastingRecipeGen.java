@@ -35,7 +35,13 @@ public class CastingRecipeGen extends TFMGProcessingRecipeGen {
 	SILICON = create("silicon", b ->b
 			.require(TFMGFluids.LIQUID_SILICON.get(),144)
 			.output(TFMGItems.SILICON_INGOT)
-			.duration(200));
+			.duration(200)),
+
+	ALUMINUM = create("aluminum", b ->b
+			.require(TFMGFluids.MOLTEN_ALUMINUM.get(), 144)
+			.output(TFMGItems.ALUMINUM_INGOT)
+			.duration(200)
+	)
 
 ;
 	public CastingRecipeGen(PackOutput output) {
