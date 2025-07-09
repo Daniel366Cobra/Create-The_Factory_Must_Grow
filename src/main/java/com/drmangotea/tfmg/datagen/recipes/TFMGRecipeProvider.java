@@ -662,6 +662,7 @@ public class TFMGRecipeProvider extends RecipeProvider {
         public static Fluid blastFurnaceGas() {
             return TFMGFluids.FURNACE_GAS.get();
         }
+        public static Fluid chlorine() {return  TFMGFluids.CHLORINE.get();}
 
         //LIQUIDS
         public static Fluid crudeOil() {
@@ -673,7 +674,7 @@ public class TFMGRecipeProvider extends RecipeProvider {
         public static Fluid lubricationOil() {
             return TFMGFluids.LUBRICATION_OIL.get();
         }
-       public static Fluid napalm() {
+        public static Fluid napalm() {
            return TFMGFluids.NAPALM.get();
        }
         public static Fluid naphtha() {
@@ -699,9 +700,10 @@ public class TFMGRecipeProvider extends RecipeProvider {
         public static Fluid coolingFluid() {
             return TFMGFluids.COOLING_FLUID.get();
         }
-        public static Fluid sulfuricAcid() {
-            return TFMGFluids.SULFURIC_ACID.get();
-        }
+        public static Fluid sulfuricAcid() { return TFMGFluids.SULFURIC_ACID.get(); }
+        public static Fluid sodiumHydroxide() { return TFMGFluids.SODIUM_HYDROXIDE.get(); }
+        public static Fluid redMud() { return TFMGFluids.RED_MUD.get(); }
+        public static Fluid brine() {return  TFMGFluids.BRINE.get();}
         public static Fluid liquidConcrete() {
             return TFMGFluids.LIQUID_CONCRETE.get();
         }

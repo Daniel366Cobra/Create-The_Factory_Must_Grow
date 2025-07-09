@@ -7,26 +7,24 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "item": "tfmg:alumina_powder"
+      "amount": 250,
+      "fluid": "tfmg:ethylene",
+      "nbt": {}
     },
     {
-      "item": "tfmg:alumina_powder"
+      "amount": 250,
+      "fluid": "tfmg:chlorine",
+      "nbt": {}
     }
   ],
   "machines": [
-    "tfmg:electrode",
-    "tfmg:electrode"
+    "tfmg:mixing"
   ],
   "minSize": 1,
-  "processingTime": 100,
   "results": [
     {
-      "amount": 288,
-      "fluid": "tfmg:molten_aluminum"
-    },
-    {
       "amount": 500,
-      "fluid": "tfmg:carbon_dioxide"
+      "fluid": "tfmg:molten_plastic"
     }
   ]
 }

@@ -21,6 +21,8 @@
     "tfmg:flowing_air",
     "tfmg:air",
     "tfmg:flowing_hot_air",
-    "tfmg:hot_air"
+    "tfmg:hot_air",
+    "tfmg:flowing_chlorine",
+    "tfmg:chlorine"
   ]
 }
