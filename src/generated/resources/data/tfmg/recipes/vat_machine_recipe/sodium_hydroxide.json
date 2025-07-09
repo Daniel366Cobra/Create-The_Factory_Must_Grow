@@ -4,13 +4,11 @@
     "tfmg:steel_vat",
     "tfmg:firebrick_lined_vat"
   ],
-  "heatRequirement": "heated",
   "ingredients": [
     {
-      "item": "tfmg:alumina_powder"
-    },
-    {
-      "item": "tfmg:alumina_powder"
+      "amount": 1000,
+      "fluid": "tfmg:brine",
+      "nbt": {}
     }
   ],
   "machines": [
@@ -18,15 +16,15 @@
     "tfmg:electrode"
   ],
   "minSize": 1,
-  "processingTime": 100,
+  "processingTime": 20,
   "results": [
     {
-      "amount": 288,
-      "fluid": "tfmg:molten_aluminum"
+      "amount": 100,
+      "fluid": "tfmg:chlorine"
     },
     {
-      "amount": 500,
-      "fluid": "tfmg:carbon_dioxide"
+      "amount": 100,
+      "fluid": "tfmg:sodium_hydroxide"
     }
   ]
 }

@@ -42,7 +42,9 @@ public class TFMGFluids {
             NEON = gas("neon", 0xff9dede9),
             CARBON_DIOXIDE = gas("carbon_dioxide", 0xff525252),
             AIR = gas("air", 0xffdfe6e5, TFMGTags.TFMGFluidTags.AIR.tag),
-            HOT_AIR = gas("hot_air", 0xffe8e1d5);
+            HOT_AIR = gas("hot_air", 0xffe8e1d5),
+            CHLORINE = gas("chlorine", 0xffc3ff60);
+
 
 
     public static final FluidEntry<ForgeFlowingFluid.Flowing>
@@ -57,10 +59,14 @@ public class TFMGFluids {
             MOLTEN_SLAG = hotFluid("molten_slag", 0xFFF760),
             MOLTEN_PLASTIC = hotFluid("molten_plastic", 0xDEE4FF),
             LIQUID_SILICON = hotFluid("liquid_silicon", 0xFFF760),
+            MOLTEN_ALUMINUM = hotFluid("molten_aluminum", 0xFFDCDC, TFMGTags.TFMGFluidTags.MOLTEN_ALUMINUM.tag),
             LUBRICATION_OIL = fluid("lubrication_oil", 0x9D945F, TFMGTags.TFMGFluidTags.LUBRICATION_OIL.tag, TFMGTags.TFMGFluidTags.FLAMMABLE.tag),
             COOLING_FLUID = fluid("cooling_fluid", 0x7BC1C1, TFMGTags.TFMGFluidTags.COOLING_FLUID.tag),
             NAPALM = fluid("napalm", 0xC0CA97),
             SULFURIC_ACID = acidFluid("sulfuric_acid", 0xE9E7CC),
+            SODIUM_HYDROXIDE = acidFluid("sodium_hydroxide", 0xD3EDED),
+            RED_MUD = acidFluid("red_mud", 0xD3EDED),
+            BRINE = fluid("brine", 0xE5F5FF),
             LIQUID_CONCRETE = concreteFluid("liquid_concrete", 0x5B5B59, ConcreteFluid.Source::new),
             LIQUID_ASPHALT = concreteFluid("liquid_asphalt", 0x010101, AsphaltFluid.Source::new);
 

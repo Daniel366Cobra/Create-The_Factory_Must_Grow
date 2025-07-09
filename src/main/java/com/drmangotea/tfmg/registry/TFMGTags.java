@@ -207,6 +207,7 @@ public class TFMGTags {
         NAPHTHA(NameSpace.FORGE),
         CRUDE_OIL(NameSpace.FORGE),
         MOLTEN_STEEL(NameSpace.FORGE),
+        MOLTEN_ALUMINUM(FORGE),
         FUEL(NameSpace.FORGE)
 
         ;
