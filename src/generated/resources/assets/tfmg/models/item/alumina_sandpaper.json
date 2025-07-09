@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tfmg:item/alumina_powder"
+    "layer0": "tfmg:item/alumina_sandpaper"
   }
 }
