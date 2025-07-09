@@ -30,6 +30,7 @@ import com.drmangotea.tfmg.content.machinery.misc.winding_machine.SpoolItem;
 import com.drmangotea.tfmg.content.machinery.oil_processing.OilHammerItem;
 import com.drmangotea.tfmg.content.machinery.oil_processing.pumpjack.pumpjack.base.DepositItem;
 import com.simibubi.create.AllTags;
+import com.simibubi.create.content.equipment.sandPaper.SandPaperItem;
 import com.simibubi.create.content.processing.sequenced.SequencedAssemblyItem;
 import com.simibubi.create.foundation.data.AssetLookup;
 import com.simibubi.create.foundation.data.CreateRegistrate;
@@ -44,10 +45,7 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.Tags;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import static com.drmangotea.tfmg.TFMG.REGISTRATE;
 import static com.drmangotea.tfmg.base.TFMGBuilderTransformers.COLORS;
@@ -317,6 +315,12 @@ public class TFMGItems {
             ZINC_GRENADE = thermiteGrenade("zinc_grenade", GREEN);
     public static final ItemEntry<ThermiteGrenadeItem>
             COPPER_GRENADE = thermiteGrenade("copper_grenade", BLUE);
+
+    public static final ItemEntry<SandPaperItem>
+            ALUMINA_SANDPAPER = REGISTRATE.item("alumina_sandpaper", SandPaperItem::new)
+            .properties(p -> p.defaultDurability(64))
+            .lang("Aluminum Oxide Sandpaper")
+            .register();
 
     /// /////////////////////////
 
