@@ -84,7 +84,7 @@ public class VatRecipeGen extends TFMGRecipeProvider {
                             .output(liquidPlastic(), 500)
                             .requiresHeat(HeatCondition.HEATED)
                     ,mixing()),
-            PLASTIC_POLYVINYL_CHLORIDE = createVatRecipe("plastic_from_ethylene_chlorine", b -> (VatMachineRecipeBuilder) b
+            PLASTIC_FROM_ETHYLENE_CHLORINE = createVatRecipe("plastic_from_ethylene_chlorine", b -> (VatMachineRecipeBuilder) b
                             .require(ethylene(), 250)
                             .require(chlorine(), 250)
                             .output(liquidPlastic(), 500)
@@ -109,6 +109,7 @@ public class VatRecipeGen extends TFMGRecipeProvider {
                             ,mixing()),
             RED_MUD_RECYCLING = createVatRecipe("red_mud_recycling", b -> (VatMachineRecipeBuilder) b
                             .require(redMud(), 1000)
+                            .require(water(), 1000)
                             .output(.35f, Items.IRON_NUGGET)
                             .output(.075f, AllItems.COPPER_NUGGET)
                             .output(.05f, AllItems.ZINC_NUGGET)
