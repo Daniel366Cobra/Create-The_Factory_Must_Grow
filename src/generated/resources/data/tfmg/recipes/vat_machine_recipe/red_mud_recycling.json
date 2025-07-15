@@ -9,6 +9,11 @@
       "amount": 1000,
       "fluid": "tfmg:red_mud",
       "nbt": {}
+    },
+    {
+      "amount": 1000,
+      "fluid": "minecraft:water",
+      "nbt": {}
     }
   ],
   "machines": [
